@@ -6,9 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.praktikum.pageobjects.LoginPage;
-import ru.yandex.praktikum.utils.ApiUtils;
-import ru.yandex.praktikum.utils.Urls;
-import ru.yandex.praktikum.utils.WebDriverFactory;
+import utils.ApiUtils;
+import utils.Urls;
+import utils.WebDriverFactory;
 
 import static org.junit.Assert.assertTrue;
 
@@ -18,17 +18,17 @@ public class LoginTests {
     private String userToken;
     private String email;
     private final String password = "password123";
-    private final String name = "Test User";
 
     @Before
     public void setUp() {
         // Generate unique email
         email = "testuser" + System.currentTimeMillis() + "@example.com";
         // Create user through API
+        String name = "Test User";
         userToken = ApiUtils.createUser(name, email, password);
 
-        // Get the browser type from system properties
-        String browser = System.getProperty("browser", "chrome");
+//        // Get the browser type from system properties
+//        String browser = System.getProperty("browser", "chrome");
 
         // Initialize WebDriver
         driver = WebDriverFactory.getDriver();

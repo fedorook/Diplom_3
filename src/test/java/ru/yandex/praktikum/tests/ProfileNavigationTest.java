@@ -6,8 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.praktikum.pageobjects.ProfilePage;
-import ru.yandex.praktikum.utils.Urls;
-import ru.yandex.praktikum.utils.WebDriverFactory;
+import utils.Urls;
+import utils.WebDriverFactory;
 
 import static org.junit.Assert.assertEquals;
 

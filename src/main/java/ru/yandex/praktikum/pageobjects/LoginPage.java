@@ -7,11 +7,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Urls;
+
 
 import java.time.Duration;
 
 public class LoginPage {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     @FindBy(xpath = "//input[@name='name']")
     private WebElement emailField;
@@ -59,15 +61,6 @@ public class LoginPage {
         loginButtonOnTheMainPage.click();
     }
 
-    @Step("Click on the 'Войти' button in the registration form")
-    public void clickRegistrationFormLoginButton() {
-        registrationFormLoginButton.click();
-    }
-
-    @Step("Click on the 'Войти' button in the forgot password form")
-    public void clickForgotPasswordFormLoginButton() {
-        forgotPasswordFormLoginButton.click();
-    }
 
     @Step("Check if user is logged in")
     public boolean isLoggedIn() {
@@ -82,5 +75,9 @@ public class LoginPage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    public boolean isAt() {
+        return driver.getCurrentUrl().equals(Urls.LOGIN_PAGE_URL);
     }
 }

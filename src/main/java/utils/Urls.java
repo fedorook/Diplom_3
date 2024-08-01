@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.utils;
+package utils;
 
 public class Urls {
     public static final String MAIN_PAGE_URL = "https://stellarburgers.nomoreparties.site/";

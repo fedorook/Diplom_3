@@ -6,9 +6,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.praktikum.pageobjects.RegisterPage;
-import ru.yandex.praktikum.utils.ApiUtils;
-import ru.yandex.praktikum.utils.WebDriverFactory;
+import utils.ApiUtils;
+import utils.WebDriverFactory;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class RegistrationTests {
@@ -17,7 +18,6 @@ public class RegistrationTests {
 
     @Before
     public void setUp() {
-        String browser = System.getProperty("browser", "chrome");
         driver = WebDriverFactory.getDriver();
         driver.get("https://stellarburgers.nomoreparties.site/register");
         registerPage = new RegisterPage(driver);
@@ -41,7 +41,7 @@ public class RegistrationTests {
 
         // Verify successful registration by logging in via API
         String accessToken = ApiUtils.loginAndGetToken(email, password);
-        assertTrue("User should be able to login with the registered credentials", accessToken != null);
+        assertNotNull("User should be able to login with the registered credentials", accessToken);
 
         // Clean up: delete the user via API
         ApiUtils.deleteUser(accessToken);
