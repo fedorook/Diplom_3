@@ -1,0 +1,1 @@
+[{"uid":"4189bceed9e9d242","name":"Display ingredient details: 10","time":{"start":1753550240178,"stop":1753550250560,"duration":10382},"status":"passed","severity":"normal"},{"uid":"9f4c50cd58be4b9d","name":"test_logout[firefox]","time":{"start":1753548148596,"stop":1753548149870,"duration":1274},"status":"passed","severity":"normal"}]

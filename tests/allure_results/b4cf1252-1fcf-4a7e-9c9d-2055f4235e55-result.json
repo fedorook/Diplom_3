@@ -1,0 +1,1 @@
+{"name": "test_click_on_constructor[firefox]", "status": "skipped", "parameters": [{"name": "driver", "value": "'firefox'"}], "start": 1753467320444, "stop": 1753467320444, "uuid": "fedb9820-3b0c-45aa-9dbf-fa2aff16f06f", "testCaseId": "041af5554e4a4338d11e5e4cd896c0f7", "fullName": "tests.test_main_funtionality.TestMainFunctionality#test_click_on_constructor"}
