@@ -1,0 +1,79 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5055","test_go_to_forgot_password_page[firefox]","tests","Sun Jul 27 00:54:50 HKT 2025","passed","Sun Jul 27 00:54:55 HKT 2025","TestForgotPassword","test_forgot_password","",""
+"","668","test_click_on_constructor[firefox]","tests","Sun Jul 27 00:56:30 HKT 2025","passed","Sun Jul 27 00:56:31 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Confirm the current user's order is present in the feed page.
+        ","15191","test_user_order_visible_in_feed[chrome]","tests","Sun Jul 27 01:10:26 HKT 2025","passed","Sun Jul 27 01:10:41 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","6450","test_enter_email_and_click_recover[firefox]","tests","Sun Jul 27 00:55:19 HKT 2025","passed","Sun Jul 27 00:55:26 HKT 2025","TestForgotPassword","test_forgot_password","",""
+"","1568","test_submit_order[chrome]","tests","Sun Jul 27 01:06:20 HKT 2025","passed","Sun Jul 27 01:06:22 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","7082","Display ingredient details: 0","tests","Sun Jul 27 01:02:22 HKT 2025","passed","Sun Jul 27 01:02:29 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Verify that clicking the Personal Account link navigates to the profile page.
+        ","1705","test_personal_account[chrome]","tests","Sun Jul 27 01:11:27 HKT 2025","passed","Sun Jul 27 01:11:29 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"
+        Ensure that logging out redirects the user to the login page.
+        ","3048","test_logout[chrome]","tests","Sun Jul 27 01:12:07 HKT 2025","passed","Sun Jul 27 01:12:10 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"","11376","test_show_hide_password[chrome]","tests","Sun Jul 27 00:55:34 HKT 2025","passed","Sun Jul 27 00:55:45 HKT 2025","TestForgotPassword","test_forgot_password","",""
+"","6533","test_show_hide_password[firefox]","tests","Sun Jul 27 00:55:50 HKT 2025","passed","Sun Jul 27 00:55:57 HKT 2025","TestForgotPassword","test_forgot_password","",""
+"","32","test_click_on_orders_feed[firefox]","tests","Sun Jul 27 00:58:38 HKT 2025","passed","Sun Jul 27 00:58:39 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Ensure that logging out redirects the user to the login page.
+        ","1271","test_logout[firefox]","tests","Sun Jul 27 01:12:24 HKT 2025","passed","Sun Jul 27 01:12:25 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"
+        Verify a newly placed order shows up in the ""In Progress"" list.
+        ","14342","test_new_order_in_progress[chrome]","tests","Sun Jul 27 01:09:29 HKT 2025","passed","Sun Jul 27 01:09:43 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","5179","test_click_on_constructor_without_login[firefox]","tests","Sun Jul 27 00:58:03 HKT 2025","passed","Sun Jul 27 00:58:08 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Verify that clicking the Personal Account link navigates to the profile page.
+        ","542","test_personal_account[firefox]","tests","Sun Jul 27 01:11:45 HKT 2025","passed","Sun Jul 27 01:11:45 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"
+        Ensure the total order counter increments after placing an order.
+        ","9734","test_increase_total_order_counter[firefox]","tests","Sun Jul 27 01:07:54 HKT 2025","passed","Sun Jul 27 01:08:04 HKT 2025","TestOrderFeed","test_order_feed","",""
+"
+        Verify a newly placed order shows up in the ""In Progress"" list.
+        ","7276","test_new_order_in_progress[firefox]","tests","Sun Jul 27 01:09:57 HKT 2025","passed","Sun Jul 27 01:10:04 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","7436","test_click_on_constructor_without_login[chrome]","tests","Sun Jul 27 00:57:50 HKT 2025","passed","Sun Jul 27 00:57:58 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        From the Personal Account, navigate to the Order History section.
+        ","4083","test_order_history[chrome]","tests","Sun Jul 27 01:12:47 HKT 2025","passed","Sun Jul 27 01:12:51 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"","240","test_click_on_orders_feed[chrome]","tests","Sun Jul 27 00:58:26 HKT 2025","passed","Sun Jul 27 00:58:27 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","9686","Display ingredient details: 0","tests","Sun Jul 27 01:01:32 HKT 2025","passed","Sun Jul 27 01:01:42 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","10858","Close ingredient details: 10","tests","Sun Jul 27 01:03:33 HKT 2025","passed","Sun Jul 27 01:03:44 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","6961","Close ingredient details: 5","tests","Sun Jul 27 01:05:13 HKT 2025","passed","Sun Jul 27 01:05:20 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","9957","test_add_ingredient_to_order[chrome]","tests","Sun Jul 27 01:05:39 HKT 2025","passed","Sun Jul 27 01:05:49 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","6703","Close ingredient details: 0","tests","Sun Jul 27 01:03:50 HKT 2025","passed","Sun Jul 27 01:03:57 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","6171","test_add_ingredient_to_order[firefox]","tests","Sun Jul 27 01:05:54 HKT 2025","passed","Sun Jul 27 01:06:00 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Confirm the current user's order is present in the feed page.
+        ","10747","test_user_order_visible_in_feed[firefox]","tests","Sun Jul 27 01:10:53 HKT 2025","passed","Sun Jul 27 01:11:04 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","5515","Display ingredient details: 10","tests","Sun Jul 27 01:02:45 HKT 2025","passed","Sun Jul 27 01:02:51 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","1586","test_click_on_constructor[chrome]","tests","Sun Jul 27 00:56:17 HKT 2025","passed","Sun Jul 27 00:56:18 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        From the Personal Account, navigate to the Order History section.
+        ","831","test_order_history[firefox]","tests","Sun Jul 27 01:13:05 HKT 2025","passed","Sun Jul 27 01:13:06 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"","10130","test_enter_email_and_click_recover[chrome]","tests","Sun Jul 27 00:55:04 HKT 2025","passed","Sun Jul 27 00:55:14 HKT 2025","TestForgotPassword","test_forgot_password","",""
+"
+        Verify that clicking an order displays its details.
+        ","9647","test_click_on_order[chrome]","tests","Sun Jul 27 01:06:47 HKT 2025","passed","Sun Jul 27 01:06:56 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","6641","test_click_on_orders_feed_without_login[firefox]","tests","Sun Jul 27 01:00:08 HKT 2025","passed","Sun Jul 27 01:00:15 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Ensure today's order counter increments after placing an order.
+        ","14373","test_increase_today_order_counter[chrome]","tests","Sun Jul 27 01:08:25 HKT 2025","passed","Sun Jul 27 01:08:39 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","6133","Display ingredient details: 5","tests","Sun Jul 27 01:02:33 HKT 2025","passed","Sun Jul 27 01:02:40 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Ensure the total order counter increments after placing an order.
+        ","15391","test_increase_total_order_counter[chrome]","tests","Sun Jul 27 01:07:26 HKT 2025","passed","Sun Jul 27 01:07:41 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","11098","Close ingredient details: 5","tests","Sun Jul 27 01:03:16 HKT 2025","passed","Sun Jul 27 01:03:27 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","11261","Display ingredient details: 5","tests","Sun Jul 27 01:01:48 HKT 2025","passed","Sun Jul 27 01:01:59 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","10889","Display ingredient details: 10","tests","Sun Jul 27 01:02:07 HKT 2025","broken","Sun Jul 27 01:02:17 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Ensure today's order counter increments after placing an order.
+        ","9890","test_increase_today_order_counter[firefox]","tests","Sun Jul 27 01:08:52 HKT 2025","passed","Sun Jul 27 01:09:02 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","6439","Close ingredient details: 10","tests","Sun Jul 27 01:05:25 HKT 2025","passed","Sun Jul 27 01:05:31 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","5807","test_click_on_orders_feed_without_login[chrome]","tests","Sun Jul 27 00:59:58 HKT 2025","passed","Sun Jul 27 01:00:04 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","636","test_submit_order[firefox]","tests","Sun Jul 27 01:06:37 HKT 2025","passed","Sun Jul 27 01:06:38 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"
+        Verify that clicking an order displays its details.
+        ","4985","test_click_on_order[firefox]","tests","Sun Jul 27 01:07:01 HKT 2025","passed","Sun Jul 27 01:07:06 HKT 2025","TestOrderFeed","test_order_feed","",""
+"","10592","Close ingredient details: 0","tests","Sun Jul 27 01:02:59 HKT 2025","passed","Sun Jul 27 01:03:10 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
+"","7231","test_go_to_forgot_password_page[chrome]","tests","Sun Jul 27 00:54:36 HKT 2025","passed","Sun Jul 27 00:54:43 HKT 2025","TestForgotPassword","test_forgot_password","",""

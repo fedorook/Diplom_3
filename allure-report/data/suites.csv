@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        Ensure that logging out redirects the user to the login page.
+        ","1274","test_logout[firefox]","tests","Sun Jul 27 00:42:28 HKT 2025","passed","Sun Jul 27 00:42:29 HKT 2025","TestPersonalAccount","test_personal_account","",""
+"","10382","Display ingredient details: 10","tests","Sun Jul 27 01:17:20 HKT 2025","passed","Sun Jul 27 01:17:30 HKT 2025","TestMainFunctionality","test_main_funtionality","",""
